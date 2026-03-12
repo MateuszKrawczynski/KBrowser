@@ -1,0 +1,55 @@
+body{
+    background-color: whitesmoke;
+}
+.mainheader{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: flex-start;
+background-color: rgb(199, 199, 199);;
+padding: 10px;
+}
+h1{
+    padding-left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.downloader{
+    border-radius: 50px 50px 50px 50px;
+    width: 80%;
+    padding:20px;
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color:rgb(199, 199, 199);; ;
+}
+.download-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    color:rgb(0, 9, 0);
+}
+a{
+    text-decoration: none;
+}
+button{
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    
+    border-color: rgb(72, 218, 32);
+    border-width: 10px;
+    border-style: double;
+}
+button:hover{
+    background-color: rgb(246, 246, 246);
+}
+.features{
+    background-color: rgb(243, 235, 226);
+    width: 80%;
+}
